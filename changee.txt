@@ -1,0 +1,12 @@
+change
+
+
+1. loginjs.js
+res.php 
+re2idm.php
+2. mystyle.css
+3. acknowledge.js
+4. ack_insert.php
+5. ack_historyDelete.php
+   ack_historyPrint.php
+5. acknowlegetab table ------
