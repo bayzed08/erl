@@ -1,0 +1,46 @@
+.back-image {
+    background-image: url(../../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%;
+    width: 80%;
+    border-radius: 2%;
+}
+
+.parent-box {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 20%;
+    height: 150px;
+    border: 1px solid rgb(138, 102, 58);
+    border-radius: 10px;
+    font-weight: bold;
+    color: blue;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex: 0 0 30%;
+    background: rgba(212, 210, 210, 0.6);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: all .5s ease-out; 
+	}
+
+.box:hover {
+    background-color: rgb(236, 236, 226, .8);
+    border-radius: 15%;
+    font-weight: bolder;
+    font-size: 19px;
+    color: rgb(72, 72, 226);
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; 
+}
+
+.box-item {
+    margin-left: 3%;
+}
